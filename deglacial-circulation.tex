@@ -1,5 +1,8 @@
 \documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}
 \usepackage{graphicx}
+\usepackage[backend=biber, style=nature]{biblatex}
+\addbibresource{references.bib}
 
 \newcommand{\delO}[1]{\ensuremath{\mathrm{\delta ^{18}O_{#1}}}} % delta-18-O symbol
 
@@ -10,4 +13,6 @@
 \maketitle
 
 \input{tex/exercise1.tex}
+
+\printbibliography{}
 \end{document}
