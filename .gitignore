@@ -2,6 +2,7 @@ old/
 resources/
 *.swp
 .ipynb_checkpoints
+*.doc
 
 ## Core latex/pdflatex auxiliary files:
 *.aux
